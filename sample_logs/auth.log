@@ -1,0 +1,13 @@
+Sep 25 09:58:01 web01 sshd[1841]: Accepted password for saad from 192.168.1.20 port 51122 ssh2
+Sep 25 10:14:22 web01 sshd[2114]: Failed password for invalid user admin from 203.0.113.9 port 51920 ssh2
+Sep 25 10:14:23 web01 sshd[2114]: Failed password for invalid user root from 203.0.113.9 port 51921 ssh2
+Sep 25 10:14:25 web01 sshd[2115]: Failed password for invalid user oracle from 203.0.113.9 port 51922 ssh2
+Sep 25 10:20:02 web01 sshd[2301]: Failed password for saad from 198.51.100.44 port 40122 ssh2
+Sep 25 10:20:05 web01 sshd[2302]: Failed password for saad from 198.51.100.44 port 40123 ssh2
+Sep 25 10:20:08 web01 sshd[2303]: Failed password for saad from 198.51.100.44 port 40124 ssh2
+Sep 25 10:20:11 web01 sshd[2304]: Failed password for saad from 198.51.100.44 port 40125 ssh2
+Sep 25 10:20:14 web01 sshd[2305]: Failed password for saad from 198.51.100.44 port 40126 ssh2
+Sep 25 10:20:17 web01 sshd[2306]: Failed password for saad from 198.51.100.44 port 40127 ssh2
+Sep 25 10:20:20 web01 sshd[2307]: Accepted password for saad from 198.51.100.44 port 40128 ssh2
+Sep 25 11:02:41 web01 sshd[3110]: Accepted password for deploy from 192.168.1.55 port 44012 ssh2
+Sep 25 11:45:03 web01 sshd[3550]: Failed password for deploy from 192.168.1.55 port 44530 ssh2
