@@ -15,3 +15,21 @@ Projet à vocation pédagogique et défensive, limité à l'analyse de journaux 
 
 
 <img width="3014" height="450" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/ae8a8e93-4bc8-45c9-b213-2537815cdc24" />
+
+
+## 3. Detection Capabilities
+
+| **Log type**   | **Detection**                                  | **Severity** |
+| -------------- | ---------------------------------------------- | ------------ |
+| `auth` (SSH)   | Brute force (many failures/IP)                 | HIGH         |
+|                | Account compromise (success after brute force) | CRITICAL     |
+|                | Potentially compromised account identification | HIGH         |
+|                | Password spraying (many users/IP)              | HIGH         |
+|                | Username enumeration (invalid users)           | MEDIUM       |
+| `access` (web) | Command injection                              | CRITICAL     |
+|                | SQL injection                                  | HIGH         |
+|                | Cross-site scripting (XSS)                     | HIGH         |
+|                | Path traversal                                 | HIGH         |
+|                | Known scanner tools (sqlmap, nikto, gobuster…) | HIGH/MEDIUM  |
+|                | Sensitive path access (`/.env`, `/.git`…)      | MEDIUM       |
+|                | Directory brute forcing (404 sweeps)           | MEDIUM       |
