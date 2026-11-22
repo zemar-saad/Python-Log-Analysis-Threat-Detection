@@ -15,6 +15,7 @@ Projet à vocation pédagogique et défensive, limité à l'analyse de journaux 
 
 ```mermaid
 
+
 flowchart TD
     subgraph INPUT["1. Sources de données"]
         SSH["Linux Authentication Logs<br/>auth.log / secure"]
